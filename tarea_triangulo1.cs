@@ -19,12 +19,12 @@ namespace ConsoleApp1
             Console.WriteLine("La hipotenusa es: " + t);
 
             //Cálculo y conversión ángulos
-            double aG = Math.Asin(y / t);
-            double cG = Math.Asin(z / t);
-            double a = aG * (180 / Math.PI);
-            double c = cG * (180 / Math.PI);
+            double a = Math.Asin(y / t);
+            double c = Math.Asin(z / t);
+            double aG = a * (180 / Math.PI);
+            double cG = c * (180 / Math.PI);
 
-            Console.WriteLine("Los ángulos son: 90° " + a + "° y " + c + "°");
+            Console.WriteLine("Los ángulos son: 90° " + aG + "° y " + cG + "°");
 
             Console.Read();
         }
