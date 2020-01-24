@@ -22,7 +22,7 @@ namespace ConsoleApp2
             double intercepto = y1 - (pendiente * x1);
             double distancia = Math.Sqrt(Math.Pow(y2 - y1, 2) + Math.Pow(x2 - x1, 2));
             Console.WriteLine("La pendiente es: " + pendiente + ", el intercepto es: " + intercepto + " y la distancia es: " + distancia);
-
+            Console.ReadLine();
         }
     }
 }
