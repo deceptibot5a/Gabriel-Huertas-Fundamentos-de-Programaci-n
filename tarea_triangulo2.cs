@@ -29,7 +29,7 @@ namespace ConsoleApp2
         
             //Salida
             Console.WriteLine("Los catetos son: " + y + " y " + z);
-            Console.WriteLine("El otro ángulo es: " + cG + "°");
+            Console.WriteLine("Los otros ángulos son: 90° " + cG + "°");
 
             Console.Read();
         }
