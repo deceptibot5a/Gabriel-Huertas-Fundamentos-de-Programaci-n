@@ -64,8 +64,7 @@ namespace ConsoleApp13
                 }
             }
             Console.WriteLine("\n\nComplemento: ");
-            for (int i = 0; i < complemento.Count; i++)
-            {
+            for (int i = 0; i < complemento.Count; i++) {
                 Console.Write(complemento[i] + ", ");
             }
 
